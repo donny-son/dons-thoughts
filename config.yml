@@ -40,14 +40,15 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     disableFingerprinting: true
-    favicon: "/home.png"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "/home.png"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/programmer.png"
+    favicon16x16: "/programmer.png"
+    favicon32x32: "/programmer.png"
+    apple_touch_icon: "/programmer.png"
+    safari_pinned_tab: "/home.gif"
 
   label:
     text: "Home"
+    icon: /home.png
     iconHeight: 35
 
   # profile-mode
@@ -55,7 +56,8 @@ params:
     enabled: true # needs to be explicitly set
     title: Dongook Son
     subtitle: " "
-    imageUrl: "images/face.jpeg"
+    # imageUrl: "images/face.jpeg"
+    imageUrl: "home.gif"
     imageWidth: 100
     imageHeight: 100
     imageTitle: my image
@@ -64,8 +66,6 @@ params:
         url: about
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
 
   # home-info mode
   homeInfoParams:
@@ -114,10 +114,6 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 10
     - identifier: posts
       name: posts
       url: /posts/
@@ -125,11 +121,11 @@ menu:
     - identifier: search
       name: search
       url: /search/
-      weight: 10
+      weight: 20
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
