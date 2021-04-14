@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://donny-son.github.io/dons-thoughts/sitemap.xml
