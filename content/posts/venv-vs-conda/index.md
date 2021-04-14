@@ -9,8 +9,8 @@ enableEmoji: true
 # `venv` vs `conda`
 
 ## Summary
-venv : setting up individual python interpreters(fresh and new) for each project.
-conda : creating and using conda environments for each individual project. 
+`venv` : setting up individual python interpreters(fresh and new) for each project.  
+`conda` : creating and using conda environments for each individual project. 
 
 ## Personal Thoughts
 
@@ -38,6 +38,6 @@ conda : creating and using conda environments for each individual project.
 
 - cannot use with latest versions of python.
 
-The following is a handwritten note in Korean. 
+The following is a handwritten note. 
 
-<img src="venv-vs-conda.jpeg" alt="drawing" width="500"/>
+{{< figure src="venv-vs-conda.jpeg" alt="Description" >}}
