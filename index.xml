@@ -12,9 +12,7 @@
       <pubDate>Wed, 14 Apr 2021 22:14:21 +0900</pubDate>
       
       <guid>https://donny-son.github.io/posts/venv-vs-conda/</guid>
-      <description>venv vs conda Summary venv : setting up individual python interpreters(fresh and new) for each project.
-conda : creating and using conda environments for each individual project.
-Personal Thoughts venv: pro:  native python. Able to use the latest python versions 3.9, 3.10, &amp;hellip; easy to use  con:  take up lots of memory if working simultaneously on multiple projects pip install -r requirements.txt doesn’t always work seamlessly when recreating environments on a different system.</description>
+      <description>Comparison between `conda` and `venv`</description>
     </item>
     
     <item>

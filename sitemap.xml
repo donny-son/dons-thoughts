@@ -8,6 +8,12 @@
     <loc>https://donny-son.github.io/posts/</loc>
     <lastmod>2021-04-14T22:14:21+09:00</lastmod>
   </url><url>
+    <loc>https://donny-son.github.io/tags/python/</loc>
+    <lastmod>2021-04-14T22:14:21+09:00</lastmod>
+  </url><url>
+    <loc>https://donny-son.github.io/tags/</loc>
+    <lastmod>2021-04-14T22:14:21+09:00</lastmod>
+  </url><url>
     <loc>https://donny-son.github.io/posts/venv-vs-conda/</loc>
     <lastmod>2021-04-14T22:14:21+09:00</lastmod>
   </url><url>
@@ -20,7 +26,5 @@
     <loc>https://donny-son.github.io/categories/</loc>
   </url><url>
     <loc>https://donny-son.github.io/search/</loc>
-  </url><url>
-    <loc>https://donny-son.github.io/tags/</loc>
   </url>
 </urlset>
