@@ -68,15 +68,11 @@ params:
         url: posts
 
   # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    # Content: Welcome to my blog
+  # homeInfoParams:
+  # Title: "Hi there \U0001F44B"
+  # Content: Welcome to my blog
 
   socialIcons:
-    # - name: twitter
-    # url: "https://twitter.com/"
-    # - name: stackoverflow
-    # url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/donny-son"
     - name: linkedin
@@ -97,10 +93,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
