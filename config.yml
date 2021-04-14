@@ -1,4 +1,4 @@
-baseURL: "localhost:1313"
+baseURL: "https://donny-son.github.io/dons-thoughts/"
 title: Don's Thoughts
 paginate: 5
 theme: PaperMod
