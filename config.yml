@@ -44,12 +44,12 @@ params:
     favicon16x16: "/programmer.png"
     favicon32x32: "/programmer.png"
     apple_touch_icon: "/programmer.png"
-    safari_pinned_tab: "/home.gif"
+    safari_pinned_tab: "/programmer.png"
 
   label:
-    text: "Home"
-    icon: /home.png
-    iconHeight: 35
+    text: " "
+    icon: /homebtn.gif
+    iconHeight: 30
 
   # profile-mode
   profileMode:
@@ -57,10 +57,10 @@ params:
     title: Dongook Son
     subtitle: " "
     # imageUrl: "images/face.jpeg"
-    imageUrl: "home.gif"
-    imageWidth: 100
-    imageHeight: 100
-    imageTitle: my image
+    imageUrl: "key-img.gif"
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: hollywood
     buttons:
       - name: About
         url: about
