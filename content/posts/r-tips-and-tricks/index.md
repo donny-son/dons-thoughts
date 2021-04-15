@@ -1,6 +1,6 @@
 ---
 title: "R Tips and Tricks"
-date: 2021-04-15T20:26:25+09:00
+date: 2021-04-16T20:26:25+09:00
 draft: false
 toc: true
 images:
