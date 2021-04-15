@@ -14,7 +14,7 @@ tags:
 
 Sometimes it is just nice to make a simple GUI for your python application. There could be a lot of reasons why you want to, or perhaps need to do this.
 
-{{< youtube "https://youtu.be/i1wqQoHG6xU" >}}
+{{< youtube "i1wqQoHG6xU" >}}
 
 For personal use, you might have several machines that you would like to run the application on. For sharing purposes, there might be fellow colleagues who need to use the python application wihtout wanting to interact with the terminal. It's also easier to distribute your program to multiple users. As shown in the attached video, launching the application is simple as double-clicking the custom-made icon. There's no need for individual users to create a virtual python environment, install required packages and so on...
 
