@@ -61,7 +61,7 @@ if __name__=="__main__":
 
 First, remember that you have two versions of `crontab`. One will be `sudo crontab` which has super user privilege and the other is `crontab` that is associated with your account.
 
-First, check your `conda env` path. This will be essential when you want your script to run under a specific conda environment. If the environment is not specified and your python script uses certain packages associated only with that environment, import errors will occur.
+Then, check your `conda env` path. This will be essential when you want your script to run under a specific conda environment. If the environment is not specified and your python script uses certain packages associated only with that environment, import errors will occur.
 
 ```shell
 (base) dongookson➜~» conda env list
