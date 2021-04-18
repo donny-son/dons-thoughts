@@ -3,6 +3,7 @@ title: "Creating Gui for Your Python App"
 date: 2021-04-15T08:05:55+09:00
 draft: false
 toc: true
+comment: true
 images:
 enableEmoji: true
 tags:

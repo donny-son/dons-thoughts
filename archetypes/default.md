@@ -4,3 +4,4 @@ date: {{ .Date }}
 draft: false
 ---
 
+{{ template "_internal/disqus.html" . }}

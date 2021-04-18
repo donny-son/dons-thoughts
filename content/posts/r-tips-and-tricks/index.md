@@ -5,6 +5,7 @@ draft: false
 toc: true
 images:
 enableEmoji: true
+comment: true
 tags:
   - R
   - RStudio
