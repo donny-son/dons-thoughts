@@ -7,7 +7,12 @@ images:
 comment: true
 enableEmoji: true
 tags:
-  - python
+  - hugo
+  - website
+  - html
+  - javascript
+  - disqus
+  - drift
 ---
 
 # Add comments and chatbots on your Hugo website
