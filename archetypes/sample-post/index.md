@@ -16,5 +16,3 @@ Intro sentence goes here.
 
 Sample Image Below.
 {{< figure src="sample.jpeg" alt="Description" >}}
-
-{{ template "_internal/disqus.html" . }}

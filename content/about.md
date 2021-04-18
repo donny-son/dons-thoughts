@@ -2,15 +2,11 @@
 title: "About"
 date: 2021-04-14T15:42:51+09:00
 draft: false
-# tags: ["first"]
 author: "Me"
-# author: ["Me", "You"] # multiple authors
-# showToc: true
-# TocOpen: false
 hidemeta: true
 comment: false
 description: "A little information about myself..."
-disableHLJS: true # to disable highlightjs
+disableHLJS: true 
 disableShare: true
 disableHLJS: false
 hideSummary: false
