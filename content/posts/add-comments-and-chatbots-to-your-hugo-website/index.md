@@ -64,7 +64,7 @@ My content folder, which contains all my [posts](https://donny-son.github.io/pos
 
 The layouts of your theme will be inside `themes/<themeName>/layouts` folder. Under the `_default/` folder, the `single.html` file will be the layout that is used when creating a new post. Since the disqus documentation directs us to put the following code just above the `<footer>`, we can paste the html code generated from disqus in `single.html`. Then every new post will have the disqus comment section.
 
-However, sometimes you would like to exclude comment plugins in some single page layouts, in my case, `about.md`. You can control this by setting a variable(something like `comment`) in your `.md` file header. We would like there to be a comment section in our markdown content if we set `comment: true` and `false` otherwise.
+However, sometimes you would like to exclude comment plugins in some single page layouts, in my case, `about.md`. You can control this by setting a variable(something like `comment`) in your `.md` file's frontmatter. We would like there to be a comment section in our markdown content if we set `comment: true` and `false` otherwise.
 
 {{< figure src="4.png" alt="about head" >}}
 
