@@ -58,7 +58,7 @@ params:
     title: Dongook Son
     subtitle: " "
     # imageUrl: "images/face.jpeg"
-    imageUrl: "key-img.gif"
+    imageUrl: "/key-img.gif"
     imageWidth: 150
     imageHeight: 150
     imageTitle: hollywood
