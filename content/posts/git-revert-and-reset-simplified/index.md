@@ -119,7 +119,7 @@ If I try to revert the third commit, I end up with the following prompt. This wi
 
 ![image-20210421213457420](image-20210421213457420.png)
 
-If I write and exit the message, the our git log will look like this.
+If I write and exit the message, our git log will look like the following image.
 
 ![image-20210421213953934](image-20210421213953934.png)
 
