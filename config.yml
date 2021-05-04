@@ -49,7 +49,7 @@ params:
 
   label:
     text: " "
-    icon: "/new-homebtn.gif"
+    icon: "/rocket.gif"
     iconHeight: 30
 
   # profile-mode
@@ -58,7 +58,7 @@ params:
     title: Dongook Son
     subtitle: " "
     # imageUrl: "images/face.jpeg"
-    imageUrl: "/key-img.gif"
+    imageUrl: "/key-image.GIF"
     imageWidth: 150
     imageHeight: 150
     imageTitle: hollywood
@@ -76,6 +76,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/donny-son"
+    - name: gitlab
+      url: "https://gitlab.com/donny-son"
     - name: linkedin
       url: "https://www.linkedin.com/in/dongook-son/"
     - name: email
