@@ -15,7 +15,6 @@ tags:
   - drift
 ---
 
-# Add comments and chatbots on your Hugo website
 
 ## INTRO
 
