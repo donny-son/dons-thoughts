@@ -43,7 +43,7 @@ My `gui.py` contains the GUI layout and the while loop for listening to events a
 The building process was very tedious and surprisingly difficult. The `pyinstaller` command that worked for me was,
 
 ```shell
-pyinstaller --icon -icons.icns --windowed --name LearnusPy gui.py
+pyinstaller --icon=icons.icns --windowed --name LearnusPy gui.py
 ```
 
 The first obstacle for me was the icon. Initially, I just wanted my app to be an UNIX executable app without a GUI interface, since my app only asks for two string inputs and takes care of the rest. Also, this app was one of the reasons why I uploaded my [`tictronome`](https://pypi.org/project/tictronome/) package to `pypi` mentioned in my [previous post]({{< ref "posts/upload-to-pypi" >}}). However, it turns out I could not overwrite the executable icon with my `icon.icns`. Also, Mac users should use `.icns` format as their app icon. `.ico` is compatible with Windows.
