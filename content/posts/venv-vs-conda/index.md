@@ -1,7 +1,7 @@
 ---
 title: "venv vs conda"
 date: 2021-04-14T22:14:21+09:00
-draft: false
+draft: true
 toc: true
 description: "Comparison between `conda` and `venv`"
 comment: true

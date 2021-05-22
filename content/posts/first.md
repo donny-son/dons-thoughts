@@ -1,7 +1,7 @@
 ---
 title: "init post"
 date: 2021-04-14T15:35:21+09:00
-draft: false
+draft: true
 toc: false
 images:
 comment: true
