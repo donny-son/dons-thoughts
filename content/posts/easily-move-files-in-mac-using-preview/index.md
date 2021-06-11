@@ -2,8 +2,7 @@
 title: "Easily Move Files in Mac Using Preview"
 date: 2021-05-03T11:19:07+09:00
 showToc: false
-draft: false
-images:
+draft: true
 comment: true
 enableEmoji: true
 tags:
