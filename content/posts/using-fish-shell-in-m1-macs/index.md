@@ -1,7 +1,7 @@
 ---
 title: "Using Fish Shell in M1 Macs"
 date: 2021-04-21T23:18:20+09:00
-draft: false
+draft: true
 toc: true
 images:
 comment: true
