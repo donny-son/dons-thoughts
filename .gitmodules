@@ -14,3 +14,6 @@
 	path = public
 	url = git@github.com:donny-son/donny-son.github.io.git
 	branch = main
+[submodule "themes/bento"]
+	path = themes/bento
+	url = https://github.com/leonardofaria/bento.git
