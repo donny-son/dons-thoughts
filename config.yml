@@ -1,7 +1,7 @@
 baseURL: "https://donny-son.github.io/"
 title: Don's Thoughts
 paginate: 5
-theme: PaperMod
+theme: Papermod
 
 enableRobotsTXT: true
 buildDrafts: false
