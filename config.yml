@@ -63,10 +63,10 @@ params:
     imageHeight: 150
     imageTitle: hollywood
     buttons:
-      - name: About
-        url: about
       - name: Posts
         url: posts
+      - name: Resume # this is maintained in a seperate repository
+        url: resume  # https://github.com/donny-son/resume-hugo
 
   # home-info mode
   # homeInfoParams:
