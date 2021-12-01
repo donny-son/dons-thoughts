@@ -1,7 +1,7 @@
 baseURL: "https://donny-son.github.io/"
 title: Don's Thoughts
 paginate: 5
-theme: Papermod
+theme: PapermodOG
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -23,8 +23,8 @@ params:
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: dark # dark, light
-  disableThemeToggle: true
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: false
@@ -48,20 +48,20 @@ params:
     safari_pinned_tab: "/programmer.png"
 
   label:
-    text: " "
-    icon: "/rocket.gif"
-    iconHeight: 30
+    text: "Home | "
+    icon: ""
+    iconHeight: 20
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: Dongook Son
     subtitle: " "
     # imageUrl: "images/face.jpeg"
-    imageUrl: "/bg3.GIF"
+    # imageUrl: "/bg3.GIF"
     imageWidth: 150
     imageHeight: 150
-    imageTitle: hollywood
+    imageTitle: ""
     buttons:
       - name: Posts
         url: posts
@@ -69,9 +69,9 @@ params:
         url: resume  # https://github.com/donny-son/resume-hugo
 
   # home-info mode
-  # homeInfoParams:
-  # Title: "Hi there \U0001F44B"
-  # Content: Welcome to my blog
+  homeInfoParams:
+   Title: "Hello there \U0001F44B"
+   Content: This blog covers some of the projects that I went through. Hope you get something out of this.
 
   socialIcons:
     - name: github
@@ -113,18 +113,22 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: posts
-      name: posts
-      url: /posts/
+    - identifier: cv
+      name: CV
+      url: /resume/ # this is managed in a seperate repository
       weight: 10
-    - identifier: search
-      name: search
-      url: /search/
+    - identifier: posts
+      name: POSTS
+      url: /posts/
       weight: 20
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: search
+      name: SEARCH
+      url: /search/
       weight: 30
+    - identifier: tags
+      name: TAGS
+      url: /tags/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
